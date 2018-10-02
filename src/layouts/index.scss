@@ -1,0 +1,136 @@
+$variable-columns: false;
+@import "~bulma/css/bulma.css";
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700|PT+Mono|Special+Elite');
+
+$font-special-elite: 'Special Elite', cursive;
+$font-nunito: 'Nunito', sans-serif;
+$font-pt-mono: 'PT Mono', monospace;
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+.hero {
+    background: url("../images/hero_bg.jpg");
+    background-size: cover;
+    color: #ffffff;
+}
+
+.navbar-item img {
+  max-height: 3rem;
+}
+
+.navbar-burger {
+  height: auto;
+}
+
+.hero-blurb {
+  font-family: $font-special-elite;
+}
+.article-title {
+  margin-bottom: 30px;
+}
+.article-info {
+  display: flex;
+  align-items: center;
+
+  & img {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+  }
+}
+
+footer {
+  padding: 45px;
+}
+
+.blog_post_list {
+  border-left: 1px solid #979797;
+  padding-left: 10px;
+
+  & div {
+    margin-bottom: 15px;
+}
+} 
+
+#sidebar-info {
+  display: flex;
+  align-items: center;
+
+  & img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+  }
+}
+
+.newsletter-input {
+  background: #777575;
+  border: 1px solid #979797;
+  border-radius: 0;
+  border: none;
+  text-align: center;
+
+  &::placeholder {
+    color: #353434;
+  }
+}
+
+.newsletter-btn {
+  background: none;
+  border-radius: 0;
+  font-size: 1.25rem;
+  color: #ffffff;
+  padding-bottom: calc(1.375em - 1px);
+  padding-left: 1.75em;
+  padding-right: 1.75em;
+
+  &:hover {
+    color: white;
+  }
+}
+
+.donate-fields {
+  margin-top: 75px;
+
+  & div {
+    margin-bottom: 50px;
+  }
+}
+.copy-input, .copy-btn {
+  border-radius: 0;
+}
+.codes {
+  width: 100%;
+}
+.copy-input {
+  box-shadow: none;
+  font-family: $font-pt-mono;
+  font-size: 11px;
+  height: 100%;
+
+}
+.copy:hover {
+  cursor: pointer;
+}
+.copy-btn:hover {
+  background-color: black;
+}
+a {
+  color: #4a4a4a;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 769px){
+  .newsletter-signup {
+    width: 40%;
+    margin: 2rem auto;
+  }
+}
+
+@media screen and (max-width: 1087px){
+  .hero.is-dark .navbar-menu {
+    background-color: transparent;
+  }
+}

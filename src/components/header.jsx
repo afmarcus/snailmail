@@ -30,8 +30,6 @@ class Header extends React.Component {
 
   handleSubmit(e) {
     e.preventDefault();
-
-    // console.log(this.state)
     let email = this.state.email_address
 
     addToMailchimp(email)
@@ -40,7 +38,6 @@ class Header extends React.Component {
 
         message.innerHTML = data.msg
         this.setState({ email_address: "" })
-        console.log(data)
       })
       .catch((err) => {
         console.log(err)

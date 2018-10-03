@@ -9,7 +9,7 @@ const SideBar = ({ blogList }) => {
         {blogList.edges.map(post => (
           <div key={post.node.id}>
             <Link to={post.node.fields.slug}>
-              <h3 className="has-text-weight-semibold">{post.node.frontmatter.title}</h3>
+              <h3 className="has-text-weight-semibold post-title">{post.node.frontmatter.title}</h3>
             </Link>
             <small className="is-italic">{post.node.frontmatter.date}</small>
             <div id="sidebar-info">
@@ -26,9 +26,9 @@ const SideBar = ({ blogList }) => {
               <p className="control codes">
                 <input className="input copy-input" type="text" value="3BJW4B6GGpoQrjeom6RpVtkza3XPw2qjoK" readOnly />
               </p>
-              <p className="control copy">
+              {/* <p className="control copy">
                 <a className="button is-static copy-btn">Copy</a>
-              </p>
+              </p> */}
             </div>
           </div>
 
@@ -38,9 +38,9 @@ const SideBar = ({ blogList }) => {
               <p className="control codes">
                 <input className="input copy-input" type="text" value="0xD7599b3D15805aDF3144676914964e8fff53C925" readOnly />
               </p>
-              <p className="control copy">
+              {/* <p className="control copy">
                 <a className="button is-static copy-btn">Copy</a>
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

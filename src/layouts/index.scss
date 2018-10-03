@@ -6,6 +6,10 @@ $font-special-elite: 'Special Elite', cursive;
 $font-nunito: 'Nunito', sans-serif;
 $font-pt-mono: 'PT Mono', monospace;
 
+
+a {
+  color: #00ADD8;
+}
 body {
   font-family: 'Nunito', sans-serif;
 }
@@ -49,7 +53,7 @@ footer {
   padding-left: 10px;
 
   & div {
-    margin-bottom: 15px;
+    margin-bottom: 40px;
 }
 } 
 
@@ -101,7 +105,7 @@ footer {
   border-radius: 0;
 }
 .codes {
-  width: 100%;
+  width: 85%;
 }
 .copy-input {
   box-shadow: none;
@@ -116,10 +120,19 @@ footer {
 .copy-btn:hover {
   background-color: black;
 }
-a {
+.post-title {
   color: #4a4a4a;
   cursor: pointer;
   text-decoration: none;
+}
+
+#subscribe_response {
+  display: block;
+  margin: .5rem 0;
+
+  & a {
+    color: #00ADD8; 
+  }
 }
 
 @media screen and (min-width: 769px){

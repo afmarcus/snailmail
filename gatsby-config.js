@@ -13,7 +13,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-mailchimp',
       options: {
-        endpoint: 'https://seanmangosing.us15.list-manage.com/subscribe/post?u=8953ecee69329d2489a619c09&amp;id=77a445829f',
+        endpoint: 'https://facebook.us12.list-manage.com/subscribe/post?u=555d5a92ac979c2866dac5490&amp;id=104ed902b6',
       },
     },
     `gatsby-transformer-remark`,

@@ -31,14 +31,19 @@ class Header extends React.Component {
   handleSubmit(e) {
     e.preventDefault();
 
-    console.log(this.state)
+    // console.log(this.state)
     let email = this.state.email_address
 
     addToMailchimp(email)
       .then(data => {
+        let message = document.getElementById("subscribe_response")
+
+        message.innerHTML = data.msg
+        this.setState({ email_address: "" })
         console.log(data)
       })
-      .catch(() => {
+      .catch((err) => {
+        console.log(err)
       })
   }
   render() {
@@ -88,6 +93,7 @@ class Header extends React.Component {
                     <input className="input newsletter-input" type="text" placeholder="Email Address" value={this.state.email_address} onChange={this.handleChange} name="email_address" />
                   </div>
                 </div>
+                <span id="subscribe_response"></span>
                 <input type="submit" className="button newsletter-btn" value="Subscribe" />
               </form>
             </div>

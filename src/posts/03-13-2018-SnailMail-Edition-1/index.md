@@ -25,14 +25,33 @@ The problem - of course - is that BBQs don’t scale….So hope with Snailmail i
 
 This newsletter, unlike many others, isn’t going to try to be polished all the time…. We will have typos and write in fragments — if you only want the polished bits wait for our LP letters.
 
-We will probably share bad ideas and silly jokes.  We will probably get in trouble at some point for sharing silly jokes or bad ideas (don’t worry, most of the partners are used to being publicly shamed on the internet from time to time - we are good at apologizing when we are wrong) … but the idea is to set a stage for people who want to share what they are working on, passions, themes, considerations, and dare I say even proposals.  
+We will probably share bad ideas and silly jokes.  We will probably get in trouble at some point for sharing silly jokes or bad ideas (don’t worry, most of the partners are used to being publicly shamed on the internet from time to time - we are good at apologizing when we are wrong) … but the idea is to set a stage for people who want to share what they are working on, passions, themes, considerations, and dare I say even proposals.
 
 So, It is going to be … interesting :)
 
-If you know others who might enjoy or get value from this - anyone can sign up here.  
+If you know others who might enjoy or get value from this - anyone can sign up here.
 
 If you want to share something written / podcasted / video-ed / whatever just reply to the newsletter…. we will actively monitor replies and the whole idea is to enable our community to reach each other.  We can’t promise to publish everything, but we will respond and engage with you on whatever you send.
 
 With that - welcome! And we hope you enjoy going forward!
 
 — The Slow Team
+
+---
+
+#### 🤔 Short Thoughts & Novelties:
+
+* [Jim Carrey on brain health](https://www.youtube.com/watch?v=wTblbYqQQag)  is worth your time.
+
+* [Claude Shannon](https://en.wikipedia.org/wiki/Claude_Shannon)  might be the most important person of the 20th century that almost no one has heard of. If you are short for time read this [Medium post](https://medium.com/the-mission/10-000-hours-with-claude-shannon-12-lessons-on-life-and-learning-from-a-genius-e8b9297bee8f) . If you got a few hours read the book [A Mind at Play](https://www.amazon.com/Mind-Play-Shannon-Invented-Information/dp/1476766681) .
+* Is Compound Interest Destroying the World? Einstein famously said that compound interest was the eighth wonder of the world “he who understands it, earns it… he who doesn’t pays it”.  It is worth considering however that the tendency towards disequilibrium driven by compound interest & accelerated by technology is the center of our modern societal woes.
+* Brain Health feels like it is going more and more mainstream - and the VC community seems to be taking notice. Our partner Dave Morin has focused on it for some time - and he has also gone completely down the yoga rabbit hole - which has been [changing his genes](http://time.com/4822302/yoga-meditation-genes-stress/) .
+* [The Law of Triviality](https://en.wikipedia.org/wiki/Law_of_triviality) .  If you want to understand most company disfunction, look no further…  HT Bobby Goodlatte - how did we not know about this sooner!
+
+---
+
+#### 💡 Management Tip of The Week:
+
+If you build a faraday cage around the bathrooms in your office will dramatically increase productivity.
+
+---

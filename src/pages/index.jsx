@@ -3,7 +3,6 @@ import Link from 'gatsby-link'
 import SideBar from '../components/sidebar'
 
 const IndexPage = ({ data }) => {
-  console.log(data)
   let currentPost = data.allMarkdownRemark.edges[0]
   return (
     <div>
